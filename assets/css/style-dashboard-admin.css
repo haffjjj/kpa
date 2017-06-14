@@ -1,0 +1,168 @@
+body{
+	background-image: url('../img/01.png');
+	background-attachment: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position: center;
+	color:white;
+}
+
+.side{
+	padding-right: 20px;
+	position: fixed;
+	z-index:1;
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.4);
+	height: 100%;
+	-webkit-box-shadow: 10px 0px 21px -4px rgba(0,0,0,0.6);
+	-moz-box-shadow: 10px 0px 21px -4px rgba(0,0,0,0.6);
+	box-shadow: 10px 0px 21px -4px rgba(0,0,0,0.6);
+}
+.user{
+	opacity: 1;
+	margin-top: 100px;
+}
+.user img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	margin-bottom: 25px;
+}
+.user p{
+	margin-top: 35px;
+	line-height: 0px;
+}
+.user h6{
+	line-height: 0px;
+}
+.user h6 a{
+	color:white;
+}
+.user hr{
+	text-align: center;
+	width: 25%
+}
+
+.wrapper{
+	margin-top: 100px;
+
+}
+
+.save{
+	display:inline-block;
+	margin-left: 9px;
+}
+
+.save-name{
+	margin-left: 0px;
+}
+
+.save p{
+	margin-left: 10px;
+	text-align: left;
+	line-height: 1px;
+	font-style:italic;
+}
+
+.form-control{
+	border-radius: 50px;
+	border:0px;
+	height: 30px;
+	color:black;
+}
+
+.save-save,.button-edit-anggaran{
+	width: 60px;
+	background: rgba(247,251,25,1);
+	background: -moz-linear-gradient(-45deg, rgba(247,251,25,1) 0%, rgba(79,159,126,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(247,251,25,1)), color-stop(100%, rgba(79,159,126,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(247,251,25,1) 0%, rgba(79,159,126,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(247,251,25,1) 0%, rgba(79,159,126,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(247,251,25,1) 0%, rgba(79,159,126,1) 100%);
+	background: linear-gradient(135deg, rgba(247,251,25,1) 0%, rgba(79,159,126,1) 100%);
+	border-radius: 50px;
+	border:0px;
+	height: 30px;
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7fb19', endColorstr='#4f9f7e', GradientType=1 );
+}
+
+.create-view{
+	text-align: left;
+}
+.create-view img{
+	float:left;
+	display:inline-block;
+	width: 30px;
+	height: 30px;
+}
+.create-view div h3{
+	margin-left: 50px;
+}
+.create-view div hr{
+	width: 8%;
+	margin-left: 50px;
+}
+.table-isi{
+	background-color: #f3dfe3;
+	border-radius: 20px;
+	padding:0px;
+	padding-top:20px;
+	padding-bottom: 15px;
+	margin-bottom : 50px;
+}
+
+.table-striped thead th{
+	color:#ff4145;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+}
+
+.table-striped thead tr th{
+	border-top: 0px;
+	border-bottom:0px;
+	padding:10px;
+}
+.table-striped tbody tr td{
+	border-bottom:0px;
+	border-top:0px;
+	padding:5px;
+	text-align:center;
+	color:black;
+}
+
+.action button{
+	background:transparent;
+	border:0px;
+	width: 19px;
+	height: 17px;
+}
+
+.action-button img{
+	height: 17px;
+	width: 17px;
+}
+
+.col-sm-8{
+	padding-left: 70px;
+}
+.edit-anggaran{
+	margin-left: 20px;
+	margin-bottom :10px;
+}
+.edit-anggaran select{
+	border-radius:50px;
+	height: 30px;
+}
+.edit-anggaran h4{
+	color:#ff4145;
+}
+.select-anggaran{
+	margin-left: 0px;
+}
+.edit-anggaran div{
+	margin-left:0px;
+}
+.button-edit-anggaran{
+	margin-left: 10px;
+}

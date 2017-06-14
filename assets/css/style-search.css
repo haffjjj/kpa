@@ -1,0 +1,63 @@
+body{
+	background-image: url('../img/01.png');
+	background-repeat:repeat;
+	background-size: cover;
+	background-position: center;
+	height: 560px;
+	color :white;
+
+}
+
+.wrapper{
+	text-align: center;
+	margin-bottom: 120px;
+
+}
+
+.user{
+	margin-bottom: 30px;
+}
+
+.user h5{
+	line-height: 1px;
+}
+
+h5 a{
+	color:white;
+}
+
+hr{
+	width:40%;
+}
+
+.search{
+	font-style:italic;
+	display:inline-block;
+	font-style: bold;
+	margin-left: 20px;
+}
+.search p{
+	text-align: left;
+	margin-left:10px;
+	font-size: 12px;
+	line-height: 5px;
+}
+
+.search-button{
+	font-style:normal;
+	clear: left;
+	border-radius: 30px;
+	border:0px;
+	color:red;
+	background-color: white;
+	width: 100px;
+	padding:5px;
+	font-weight: bold;
+
+}
+
+.form-control{
+	border-radius: 50px;
+	font-style: normal;
+	height: 30px;
+}

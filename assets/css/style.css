@@ -1,0 +1,12 @@
+.bas{
+	background-image: url('../img/login.jpg');
+}
+.kotak{
+	font-size: 12px;
+	font-family: "Arial";
+	font-style: italic;
+}
+
+.password,.login{
+	margin-top: 20px;
+}

@@ -1,0 +1,86 @@
+.modal-content{
+	padding:30px;
+	border-radius:40px;
+}
+.modal-content input{
+	opacity: normal;
+	width: 100%;
+ 	border-radius:50px;
+ 	border:1px solid #b8b8b8;
+ 	margin-bottom: 20px;
+ }
+.modal-content p{
+	font-style: italic;
+	font-size:95%;
+	color:#ff5255;
+	line-height: 20%;
+	margin-left: 10px;
+}
+
+.ket-modal{
+    margin-left: 140px;
+}
+
+.button-modal{
+	text-align: right;
+	margin-top: 10px;
+}
+
+.anggaran{
+	line-height: 40%;
+	color: #53c609;
+	font-style:italic;
+	text-align: right;
+
+}
+
+.angg-rp{
+	border-radius: 50px;
+	border:0px;
+	padding:5px;
+	width: 100px;
+	color:white;
+	text-align: right;
+	margin-bottom: 30px;
+}
+.cancel-modal,.save-modal{
+	border-radius: 50px;
+	border:0px;
+	height: 30px;
+	color:white;
+}
+
+.cancel-modal{
+	background: rgba(248,175,52,1);
+	background: -moz-linear-gradient(left, rgba(248,175,52,1) 0%, rgba(218,87,9,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(248,175,52,1)), color-stop(100%, rgba(218,87,9,1)));
+	background: -webkit-linear-gradient(left, rgba(248,175,52,1) 0%, rgba(218,87,9,1) 100%);
+	background: -o-linear-gradient(left, rgba(248,175,52,1) 0%, rgba(218,87,9,1) 100%);
+	background: -ms-linear-gradient(left, rgba(248,175,52,1) 0%, rgba(218,87,9,1) 100%);
+	background: linear-gradient(to right, rgba(248,175,52,1) 0%, rgba(218,87,9,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8af34', endColorstr='#da5709', GradientType=1 );
+}
+
+.save-modal, .angg-rp{
+	background: rgba(219,236,41,1);
+	background: -moz-linear-gradient(left, rgba(219,236,41,1) 0%, rgba(74,156,130,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(219,236,41,1)), color-stop(100%, rgba(74,156,130,1)));
+	background: -webkit-linear-gradient(left, rgba(219,236,41,1) 0%, rgba(74,156,130,1) 100%);
+	background: -o-linear-gradient(left, rgba(219,236,41,1) 0%, rgba(74,156,130,1) 100%);
+	background: -ms-linear-gradient(left, rgba(219,236,41,1) 0%, rgba(74,156,130,1) 100%);
+	background: linear-gradient(to right, rgba(219,236,41,1) 0%, rgba(74,156,130,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dbec29', endColorstr='#4a9c82', GradientType=1 );
+}
+.form-control{
+	border-radius: 50px;
+	height: 30px;
+	color:black;
+	font-style:normal;
+}
+.table-anggaran thead tr th{
+	text-align: center;
+}
+.table-anggaran tbody tr td{
+	text-align: center;
+	border-top:0px;
+}
